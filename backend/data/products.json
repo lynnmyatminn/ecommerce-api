@@ -1,0 +1,78 @@
+[
+    {
+        "name": "မုန့်လက်ဆောင်း",
+        "price": "1.25",
+        "description": "tapioca or rice noodles, glutinous rice, grated coconut and toasted sesame with jaggery syrup in coconut milk",
+        "ratings": 4.5,
+        "images": [
+            {
+                "public_id": "products/12345",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Chendol_at_Cendol_Melaka%2C_Changi_Village.jpg/1920px-Chendol_at_Cendol_Melaka%2C_Changi_Village.jpg"
+            },
+            {
+                "public_id": "products/789456",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cendol_in_a_Glass.JPG/170px-Cendol_in_a_Glass.JPG"
+            }
+        ],
+        "category": "Food",
+        "seller": "KyawGyi",
+        "stock": 20,
+        "numOfReviews": 10,
+        "reviews": []
+    },
+    {
+        "name": "ရွှေရင်အေး",
+        "price": "1.5",
+        "description": "The dessert is served cold, and consists of sweetened sticky rice, sago pearls, pandan jelly noodles (cendol), and cubes of kyaukkyaw, coconut jelly, and a slice of white bread steeped in a concoction of sweetened coconut milk.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/54123",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Shweyin-aye.JPG/220px-Shweyin-aye.JPG"
+            }
+        ],
+        "category": "Food",
+        "seller": "KyawGyi",
+        "stock": 10,
+        "numOfReviews": 12,
+        "reviews": []
+    },
+    {
+        "name": "Pickled tea (lahpet)",
+        "price": "1.5",
+        "description": "Lahpet thoke, Burmese tea leaf salad or pickled tea salad is a favourite national dish.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/54123",
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Pickled_tea_%28lahpet%29.JPG/800px-Pickled_tea_%28lahpet%29.JPG"
+            }
+        ],
+        "category": "Salads",
+        "seller": "KyawGyi",
+        "stock": 50,
+        "numOfReviews": 12,
+        "reviews": []
+    },
+    {
+        "name": "Mohinga",
+        "price": "1.5",
+        "description": "Mohinga is a rice noodle and fish soup from Myanmar and an essential part of Burmese cuisine, considered by many to be the national dish of Myanmar.[1][2][3] Mohinga is readily available in most parts of the country, sold by street hawkers and roadside stalls in larger cities. Mohinga is traditionally eaten for breakfast, but today is eaten at any time of day.",
+        "ratings": 5,
+        "images": [
+            {
+                "public_id": "products/54123",
+                "url": "https://images.getbento.com/accounts/fefc009541d7ed57fbedc37991fb9cfd/media/EmpnBFsQHukI2JNBftH4_Mohinga.jpg?w=1200&fit=crop&auto=compress,format&h=600"
+            },
+            {
+                "public_id": "products/54123",
+                "url": "https://i0.wp.com/hsaba.com/wp-content/uploads/2013/07/traditionalfishnoodlesoup.jpg?fit=1000%2C750&ssl=1"
+            }
+        ],
+        "category": "Noodles",
+        "seller": "KyawGyi",
+        "stock": 50,
+        "numOfReviews": 12,
+        "reviews": []
+    }
+]
