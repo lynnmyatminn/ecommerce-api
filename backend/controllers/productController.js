@@ -1,10 +1,10 @@
 const Product = require('../models/product');
 const ErrorHandler = require('../utils/errorHandler');
-const catchAsyncErrors = require('../middlewares/catchAsyncErrors');
+const CatchAsyncErrors = require('../middlewares/catchAsyncErrors');
 const APIFeatures = require('../utils/apiFeatures');
 
 //GET all products => /api/v1/products
-exports.getProducts = catchAsyncErrors(async (req, res, next) => {
+exports.getProducts = CatchAsyncErrors(async (req, res, next) => {
     const resPerPage = 2;
     const totalProducts = await Product.countDocuments();
     const apiFeatures = new APIFeatures(Product.find(), req.query)
@@ -24,7 +24,7 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
 });
 
 //GET a product => /api/v1/product/:id
-exports.getProduct = catchAsyncErrors(async (req, res, next) => {
+exports.getProduct = CatchAsyncErrors(async (req, res, next) => {
     const product = await Product.findById(req.params.id);
     if (!product) {
         // return res.status(404).json({
@@ -40,7 +40,7 @@ exports.getProduct = catchAsyncErrors(async (req, res, next) => {
 });
 
 //CREATE new product => /api/v1/admin/product/new
-exports.newProduct = catchAsyncErrors(async (req, res, next) => {
+exports.newProduct = CatchAsyncErrors(async (req, res, next) => {
     const product = await Product.create(req.body);
     res.status(201).json({
         success: true,
@@ -49,7 +49,7 @@ exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 });
 
 //UPDATE a product => /api/v1/admin/product/:id
-exports.updateProduct = catchAsyncErrors(async (req, res, next) => {
+exports.updateProduct = CatchAsyncErrors(async (req, res, next) => {
 
     let product = await Product.findById(req.params.id);
 
@@ -70,7 +70,7 @@ exports.updateProduct = catchAsyncErrors(async (req, res, next) => {
 });
 
 //DELETE a product => /api/v1/admin/product/:id
-exports.deleteProduct = catchAsyncErrors(async (req, res, next) => {
+exports.deleteProduct = CatchAsyncErrors(async (req, res, next) => {
     const product = await Product.findById(req.params.id);
     if (!product) {
         return next(new ErrorHandler('Product not found!', 404));
