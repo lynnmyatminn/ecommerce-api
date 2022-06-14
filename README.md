@@ -5,10 +5,12 @@ RESTful API for e-commerce web application. Developed with NodeJS, Express and M
 ## Badges
 
 ![ts](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-[![CircleCI](https://circleci.com/gh/satnaing/haru-api/tree/master.svg?style=shield)](https://circleci.com/gh/satnaing/haru-api/tree/master)
-[![Heroku](https://pyheroku-badge.herokuapp.com/?app=angularjs-crypto&style=flat)](https://haru-fashion.herokuapp.com/)
-[![Jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
-[![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![CircleCI](https://img.shields.io/badge/circleci-343434?style=for-the-badge&logo=circleci&logoColor=white)](https://circleci.com/gh/lynnmyatminn/ecommerce-api/tree/master)
+
+<!-- [![Heroku](https://pyheroku-badge.herokuapp.com/?app=angularjs-crypto&style=flat)](https://haru-fashion.herokuapp.com/) -->
+
+[![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://github.com/facebook/jest)
+[![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)](https://github.com/prettier/prettier)
 
 ## Demo
 
