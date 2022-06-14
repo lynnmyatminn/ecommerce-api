@@ -27,8 +27,8 @@ Here are some of the project's features
 
 ## Tech Stack
 
-**Backend:** Node, Express, TypeScript  
-**Database:** Prisma + PostgreSQL  
+**Backend:** Node, Express  
+**Database:** MongoDB  
 **Testing:** Jest  
 **Containerization:** Docker  
 **CI/CD:** CircleCI
@@ -38,7 +38,7 @@ Here are some of the project's features
 Clone the project
 
 ```bash
-git clone https://github.com/satnaing/haru-api.git
+git clone https://github.com/lynnmyatminn/nodeshoptest.git
 ```
 
 Go to the project directory
@@ -126,7 +126,7 @@ Then add the following environment variables.
 `NODE_ENV=testing`  
 `DATABASE_URL="postgresql://prisma:prisma@localhost:5437/tests"`
 
-Note! dotenv-cli must be installed golbally before running any test
+Note! dotenv-cli must be installed globally before running any test
 
 ```bash
 sudo npm install -g dotenv-cli
