@@ -44,7 +44,7 @@ git clone https://github.com/lynnmyatminn/nodeshoptest.git
 Go to the project directory
 
 ```bash
-cd haru-api
+cd nodeshoptest
 ```
 
 Remove remote origin
@@ -83,11 +83,7 @@ _add the following environment variables to .env file. (some env var include exa
 Migrate and seed database
 
 ```bash
-npx prisma migrate dev --name init
-```
-
-```bash
-npx prisma db seed
+npm run seeder
 ```
 
 <details>
