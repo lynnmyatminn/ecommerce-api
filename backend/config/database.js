@@ -1,19 +1,15 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const connectDatabase = () => {
-    // mongoose.connect(process.env.MONGO_URL)
-    //     .then(() => {
-    //         console.log('Database connection is ready...');
-    //     })
-    //     .catch((error) => {
-    //         console.log(error);
-    //     })
-    mongoose.connect(process.env.MONGO_URL, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        // useCreateIndex: true
-    }).then(con => {
-        console.log(`MongoDB Database connected with HOST: ${con.connection.host}`);
+  mongoose
+    .connect(process.env.MONGO_URL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    })
+    .then((con) => {
+      console.log(
+        `MongoDB Database connected with HOST: ${con.connection.host}`
+      );
     });
 };
 
