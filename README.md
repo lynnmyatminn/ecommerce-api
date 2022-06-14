@@ -4,7 +4,7 @@ RESTful API for e-commerce web application. Developed with NodeJS, Express and M
 
 ## Badges
 
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
+![ts](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 [![CircleCI](https://circleci.com/gh/satnaing/haru-api/tree/master.svg?style=shield)](https://circleci.com/gh/satnaing/haru-api/tree/master)
 [![Heroku](https://pyheroku-badge.herokuapp.com/?app=angularjs-crypto&style=flat)](https://haru-fashion.herokuapp.com/)
 [![Jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
@@ -12,8 +12,8 @@ RESTful API for e-commerce web application. Developed with NodeJS, Express and M
 
 ## Demo
 
-[🚀 API Demo](https://haru-fashion.herokuapp.com/api/v1/categories)  
-[📖 API Docs](https://satnaing.github.io/haru-api/)
+[🚀 API Demo]()  
+[📖 API Docs]()
 
 ## Features
 
